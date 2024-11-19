@@ -1,0 +1,239 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F9F9F9;
+    .menu{
+        border-bottom: solid 0.05vw rgb(175, 175, 175);
+        font-size: 0.94vw;
+        margin-top: 1vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-bottom: 1vw;
+        margin-bottom: 10vw;
+
+        ul{
+            margin-left: 3vw;
+        }
+
+        .singup{
+            margin-left: 1vw;
+            font-size: 0.94vw;
+            font-family: 'Inter', sans-serif;
+        }
+        .login{
+            margin-left: 3vw;
+        }
+    }
+    .menu-contain{
+        margin-left: 7vw;
+    }
+    .header-img{
+        width:35.42vw ;
+        height:31.61vw ;
+        margin-left: 55vw;
+        margin-top: 2.5vw;
+    }
+    .btn-menu{
+        background-color: #6C5FBC;
+        padding-top: 0.7vw;
+        padding-bottom: 0.7vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 0.94vw;
+        a{
+            text-decoration: none;
+        }
+    }
+    .header{
+        margin-bottom: 5vw;
+    }
+    .footer{
+        
+        background-color: #EAEAEA;
+        margin-top: 18vw;
+        padding-bottom: 3vw;
+        .menu-foot{
+            margin-right: 34vw;
+            margin-left: -5vw;
+            margin-top: 5vw;
+            
+        }
+        a{
+            text-decoration: none;
+            font-size: 0.94vw;
+            font-weight: 500;
+            
+        }
+        .menu-col{
+            margin-top: 5vw; 
+        }
+        .footer-menu{
+            border-bottom: gray solid 0.05vw;
+            padding-bottom: 2vw;
+            margin-right: 2vw;
+        }
+        .logo-foot{
+            width: 8vw;
+            height: 2.97vw;
+            margin-left: 5vw;
+        }
+        .sob{
+            margin-right: 35vw;
+            a{
+                font-size: 0.89vw;
+            }
+        }
+        .foot-text{
+            margin-top: 3vw;
+        }
+        .icon{
+            
+            margin-left: -3vw;
+            .img-foot{
+                height: 1.1vw;
+                width: 1.09vw;
+            }
+            .img-foot-1{
+                height: 1.3vw;
+                width: 0.8vw;
+            
+            }
+        }
+        
+    }
+    .header-img-pricing{
+        width: 58vw;
+        height: 42.86vw;
+        margin-left: 20vw;
+    }
+    .title-pricing{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 2.7vw;
+        margin-left: 4.5vw;
+        margin-top: -41vw;
+        margin-bottom: 53vw; 
+    }
+    .title{
+        margin-top: 0vw;
+       
+    }
+    .pricing-table{
+        width: 65.16vw;
+        height: 71.99vw;
+        background-color: white;
+        box-shadow: 0 0 0.6vw 0.6vw #e1e1e1;
+        border-radius: 0.5vw;
+        margin-left: 16vw;
+    }
+    .col-header{
+        margin-top: 3vw;
+        margin-left: 3vw;
+        
+        h1{
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 2.8vw;
+            margin-bottom: 1vw;
+        }
+        p{
+            font-size: 0.83vw;
+            font-weight: 500;
+        }
+    }
+    .tab-header{
+        border-bottom: 0.1vw solid rgb(183, 183, 183);
+        padding-bottom: 2vw;
+    }
+    .col-ch0{
+        margin-left: 9vw;
+        margin-top: 3vw;
+        img{
+            width: 5.83vw;
+            height: 3.75vw;
+        }
+    }
+    .col-ch5{
+        margin-left: 3.1vw;
+        margin-top: 3vw;
+        img{
+            width: 5.83vw;
+            height: 3.75vw;
+        }
+    }
+    .text-core{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 1.25vw;
+        margin-left: 3vw;
+        margin-top: 3vw;
+    }
+    .text-tab{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.15vw;
+        margin-left: 3vw;
+        margin-top: 4vw;
+    }
+    .img-tab{
+        width: 1.82vw;
+        height: 1.82vw;
+        margin-left: 5vw;
+        margin-top: 3.8vw;
+    }
+    .text-tab-1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.15vw;
+        margin-left: 3vw;
+        margin-top: 2vw;
+    }
+    .img-tab-1{
+        width: 1.82vw;
+        height: 1.82vw;
+        margin-left: 5vw;
+        margin-top: 1.8vw;
+    }
+    .cl-end{
+        border-bottom: 0.1vw solid rgb(183, 183, 183);
+        padding-bottom: 2vw;
+    }
+    .btn-pricing{
+        width: 7.60vw;
+        height: 3.07vw;
+        background-color: #6C5FBC;
+        border-radius: 0.5vw;
+        border: none;
+        margin-left: 2.2vw;
+        margin-top: 3vw;
+        a{
+            text-decoration: none;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+            font-size: 1vw;
+        }
+    }
+    .title-com{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 2.34vw;
+        margin-bottom: 3vw;
+    }
+    .section-2{
+        margin-top: 15vw;
+    }
+    .com-1{
+        width: 28.90vw;
+        height: 22.84vw;
+        margin-left: 7vw;
+    }
+    .com-2{
+        width: 32.90vw;
+        height: 22.42vw;
+        margin-left: -5vw;
+    }
+    .com-3{
+        width: 32.90vw;
+        height: 22.42vw;
+        margin-left: -5vw;
+    }
+}

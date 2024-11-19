@@ -1,0 +1,134 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: #F9F9F9;
+    .menu{
+        border-bottom: solid 0.05vw rgb(175, 175, 175);
+        font-size: 0.94vw;
+        margin-top: 1vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        padding-bottom: 1vw;
+        margin-bottom: 10vw;
+
+        ul{
+            margin-left: 3vw;
+        }
+
+        .singup{
+            margin-left: 1vw;
+            font-size: 0.94vw;
+            font-family: 'Inter', sans-serif;
+        }
+        .login{
+            margin-left: 3vw;
+        }
+    }
+    .menu-contain{
+        margin-left: 7vw;
+    }
+    .header-img{
+        width:35.42vw ;
+        height:31.61vw ;
+        margin-left: 55vw;
+        margin-top: 2.5vw;
+    }
+    .btn-menu{
+        background-color: #6C5FBC;
+        padding-top: 0.7vw;
+        padding-bottom: 0.7vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+        border-radius: 0.94vw;
+        a{
+            text-decoration: none;
+        }
+    }
+    .header{
+        margin-bottom: 5vw;
+    }
+    .footer{
+        
+        background-color: #EAEAEA;
+        margin-top: 18vw;
+        padding-bottom: 3vw;
+        .menu-foot{
+            margin-right: 34vw;
+            margin-left: -5vw;
+            margin-top: 5vw;
+            
+        }
+        a{
+            text-decoration: none;
+            font-size: 0.94vw;
+            font-weight: 500;
+            
+        }
+        .menu-col{
+            margin-top: 5vw; 
+        }
+        .footer-menu{
+            border-bottom: gray solid 0.05vw;
+            padding-bottom: 2vw;
+            margin-right: 2vw;
+        }
+        .logo-foot{
+            width: 8vw;
+            height: 2.97vw;
+            margin-left: 5vw;
+        }
+        .sob{
+            margin-right: 35vw;
+            a{
+                font-size: 0.89vw;
+            }
+        }
+        .foot-text{
+            margin-top: 3vw;
+        }
+        .icon{
+            
+            margin-left: -3vw;
+            .img-foot{
+                height: 1.1vw;
+                width: 1.09vw;
+            }
+            .img-foot-1{
+                height: 1.3vw;
+                width: 0.8vw;
+            
+            }
+        }
+        
+    }
+    .banner{
+        width: 42.24vw;
+        height: 23.44vw;
+        margin-left: 29vw;
+        margin-top: -7vw;
+    }
+    .title-menu{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 3.33vw; 
+        margin-top: 5vw;
+        margin-bottom: 3vw;
+    }
+    .tab-menu{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.04vw;
+    }
+    .tab-contain{
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .tab-contain-2{
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 3vw; 
+    }
+    .food-card{
+        width: 12.32vw;
+        height: 20.36vw;
+    }
+}

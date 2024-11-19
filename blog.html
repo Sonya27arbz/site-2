@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Eatly-Blog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/blogcss.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <header class="header" id="Menu">
+      <nav class="navbar navbar-expand-lg menu">
+        
+          <div class="container-fluid menu-contain ">
+            <a class="navbar-brand me-5" href="index.html"><img src="img/Logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item me-5">
+                  <a class="nav-link active secondary" aria-current="page" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link secondary active" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item me-5"></li>
+                  <a class="nav-link secondary" href="pricing.html">Pricing</a>
+                </li>
+                <li class="nav-item me-5"></li>
+                  <a class="nav-link secondary" href="contact.html">Contact</a>
+                </li>
+                
+              </ul>
+              <form action="">
+                  <form class="d-flex" action=""><a class="nav-link secondary login me-5" href="login.html">Login</a></form>
+                <form class="d-flex" action=""><button class="btn btn-menu singup me-5" type="submit"><a href="singup.html" class="text-light">Sing up</a></button></form>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasRightLabel"><nav class="navbar navbar-expand-lg menu">
+          
+              <div class="container-fluid menu-contain ">
+                <a class="navbar-brand me-5" href="index.html"><img src="img/Logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item me-5">
+                      <a class="nav-link active secondary" aria-current="page" href="menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link secondary active" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item me-5"></li>
+                      <a class="nav-link secondary" href="pricing.html">Pricing</a>
+                    </li>
+                    <li class="nav-item me-5"></li>
+                      <a class="nav-link secondary" href="contact.html">Contact</a>
+                    </li>
+                    
+                  </ul>
+                  <form action="">
+                      <form class="d-flex" action=""><a class="nav-link secondary login me-5" href="login.html">Login</a></form>
+                    <form class="d-flex" action=""><button class="btn btn-menu singup me-5" type="submit"><a href="singup.html" class="text-light">Sing up</a></button></form>
+                  </form>
+                </div>
+              </div>
+            </nav>
+            
+  
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasRightLabel"><a class="navbar-brand me-5" href="index.html"><img src="img/Logo.png" alt=""></a></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item me-5">
+                    <a class="nav-link active secondary" aria-current="page" href="menu.html">Menu</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link secondary active" href="blog.html">Blog</a>
+                  </li>
+                  <li class="nav-item me-5"></li>
+                    <a class="nav-link secondary" href="pricing.html">Pricing</a>
+                  </li>
+                  <li class="nav-item me-5"></li>
+                    <a class="nav-link secondary" href="contact.html">Contact</a>
+                  </li>
+                  
+                </ul>
+                <form action="">
+                    <form class="d-flex" action=""><a class="nav-link secondary login " href="login.html">Login</a></form>
+                  <form class="d-flex" action=""><button class="btn btn-menu singup " type="submit"><a href="singup.html" class="text-light">Sing up</a></button></form>
+                </form>
+              </div>
+            </div></h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item me-5">
+                <a class="nav-link active secondary" aria-current="page" href="menu.html">Menu</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link secondary active" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item me-5"></li>
+                <a class="nav-link secondary" href="pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item me-5"></li>
+                <a class="nav-link secondary" href="contact.html">Contact</a>
+              </li>
+              
+            </ul>
+            <form action="">
+                <form class="d-flex" action=""><a class="nav-link secondary login " href="login.html">Login</a></form>
+              <form class="d-flex" action=""><button class="btn btn-menu singup " type="submit"><a href="singup.html" class="text-light">Sing up</a></button></form>
+            </form>
+          </div>
+        </div>
+  </header>
+    <section class="section-1">
+        <div class="container-fluid">
+            <h1 class="title-blog">How To Order Food On eatly ?</h1>
+            <div class="img-circle"> 
+                <img src="img/Ellipse 28.png" class="circle" alt="">
+                <p class="text-top text-secondary">Written By</p>
+                <p class="text-bt">Perperzon</p>
+            </div>
+            <img src="img/Pic.png" alt="" class="img-top">
+        </div>
+        <div class="container-inf ">
+            <h1>Browse restaurants and menus</h1>
+            <p>Once you're logged in, you can browse through the list of available restaurants on the Eatly website. You can filter by cuisine, price, and distance to find the perfect restaurant for your needs. Click on a restaurant to view its menu. Once you're logged in, you can browse through the list of available restaurants on the Eatly website. You can filter by cuisine, price, and distance.</p>
+            <ul>
+                <li><p>It was popularized in the 1960s with the release</p></li>
+                <li><p>Lorem Ipsum passages, and more recently</p></li>
+            </ul>
+            <h1>Select your items</h1>
+            <p class="p-m">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. </p>
+            <h1>Place your order</h1>
+            <p>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. </p>
+            <button type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn section-1_btn"><a href="" class="text-light">Next article <img src="img/Arrow.png" alt="" class="arrow"></a></button>
+            <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5 h1-modal1 mt-5" id="exampleModalLabel">The Modern Internet Cafe</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Today, internet cafes are far more than just places to surf the web. Many have upgraded their facilities to include high-speed internet connections, gaming consoles, and the latest computers. They often host gaming tournaments, workshops, and community events. Some cafes offer printing services, graphic design assistance, and even tech support, catering to the needs of freelancers and remote workers.</p>
+          <img src="img/84e11b68f7e73df4563801e7697bb2d5.jpg" alt="" class="img-modal">
+        </div>
+      </div>
+    </div>
+  </div>
+        </div>
+        <div class="img-cont">
+            <h1>Top Articles</h1>
+            <img src="img/Blog Card 01.png" alt="" class="card-1">
+            <img src="img/Blog Card 02.png" alt="" class="card-1">
+            <img src="img/Blog Card 03.png" alt="" class="card-1">
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container text-center">
+            <div class="row align-items-start footer-menu">
+              <div class="col-2 menu-foot">
+                <a class="navbar-brand" href="index.html"><img src="img/Logo.png" alt="" class="logo-foot"></a>
+              </div>
+              <div class="col-1 menu-col">
+                <a href="menu.html" class="text-secondary">Menu</a>
+              </div>
+              <div class="col-1 menu-col">
+                <a href="blog.html" class="text-secondary">Blog</a>
+              </div>
+              <div class="col-1 menu-col">
+                <a href="pricing.html" class="text-secondary">Pricing</a>
+              </div>
+              <div class="col-1 menu-col">
+                <a href="contact.html" class="text-secondary">Contact</a>
+              </div>
+            </div>
+          </div>
+          <div class="container text-center foot-text">
+            <div class="row align-items-start">
+              <div class="col-3 sob">
+                <a href="#" class="text-secondary ">© 2023 EATLY All Rights Reserved.</a>
+              </div>
+              <div class="col-1 icon ">
+                <a href="" class=""><img src="img/Group 888.png" alt="" class="img-foot"></a>
+              </div>
+              <div class="col-1 icon">
+                <a href="" class=""><img src="img/Path 7.png" alt="" class="img-foot"></a>
+              </div>
+              <div class="col-1 icon">
+                <a href="" class=""><img src="img/Path 13.png" alt=""  class="img-foot-1"></a>
+              </div>
+              <div class="col-1 icon">
+                <a href="" class=""><img src="img/Path 6.png" alt="" class="img-foot"></a>
+              </div>
+            </div>
+          </div>
+    </footer>
+</body>
